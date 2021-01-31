@@ -1,6 +1,7 @@
 version: '3.6'
 services:
   iris:
+    container_name: backend-lojavirtual
     build: 
       context: .
       dockerfile: Dockerfile
